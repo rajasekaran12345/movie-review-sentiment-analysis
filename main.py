@@ -12,8 +12,8 @@ reverse_word_index = {value: key for key, value in word_index.items()}
 
 # Load pre-trained models
 lstm_model = load_model('lstm_imdb.h5')
-simplernn_model = load_model('simple_rnn_imdb.h5',compile=False)
-bilstm_model = load_model('bilstm_imdb.h5',compile=False)
+simplernn_model = load_model('simple_rnn_imdb.h5')
+bilstm_model = load_model('bilstm_imdb.h5')
 
 # Step 2: Helper Functions
 def decode_review(encoded_review):

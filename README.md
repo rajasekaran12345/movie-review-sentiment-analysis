@@ -51,6 +51,11 @@ All models output a probability between `0` (Negative) and `1` (Positive).
 4. Run the Streamlit app in the terminal: streamlit run main.py.
 5. Enter a review, choose a model, and click Classify.
 
+## Important Note
+   if you are deploying the main.py application in community cloud make sure that you library versions are the matches in the below description.
+   -->tensorflow==2.20.0
+   -->keras==3.11.3
+
 🎨 Example Reviews
 
 Positive:
@@ -66,7 +71,6 @@ Add pretrained Transformer models (BERT, DistilBERT)
 
 Enhance UI with sentiment visualization (pie/bar chart)
 
-Deploy on Streamlit Cloud or Hugging Face Spaces
 
 🤝 Contributing
 
